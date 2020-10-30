@@ -1,6 +1,6 @@
-CXXFLAGS = -g -I/usr/include/emc2 -I../src 
+CXXFLAGS = -g -I/usr/include/linuxcnc -I../src 
 LDFLAGS =
-LIBS=-lemc -lnml -lemcini
+LIBS=-llinuxcnc -lnml -llinuxcncini
 
 vpath %.hpp ../src ../include
 vpath %.cpp ../src

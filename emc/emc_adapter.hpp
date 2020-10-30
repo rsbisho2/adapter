@@ -38,15 +38,15 @@
 #include "device_datum.hpp"
 #include "string_array.hpp"
 
-#include "emc2/rcs.hh"               // rcs_print_error(), esleep()
-#include "emc2/emc.hh"               // EMC NML
-#include "emc2/emc_nml.hh"
-#include "emc2/emcglb.h"             // EMC_NMLFILE, TRAJ_MAX_VELOCITY
-#include "emc2/emccfg.h"             // DEFAULT_TRAJ_MAX_VELOCITY
-#include "emc2/inifile.hh"           // INIFILE
-#include "emc2/rcs_print.hh"
-#include "emc2/nml_oi.hh"
-#include "emc2/timer.hh"
+#include "linuxcnc/rcs.hh"               // rcs_print_error(), esleep()
+#include "linuxcnc/emc.hh"               // EMC NML
+#include "linuxcnc/emc_nml.hh"
+#include "linuxcnc/emcglb.h"             // EMC_NMLFILE, TRAJ_MAX_VELOCITY
+#include "linuxcnc/emccfg.h"             // DEFAULT_TRAJ_MAX_VELOCITY
+#include "linuxcnc/inifile.hh"           // INIFILE
+#include "linuxcnc/rcs_print.hh"
+#include "linuxcnc/nml_oi.hh"
+#include "linuxcnc/timer.hh"
 
 class EmcAdapter : public Adapter 
 {
